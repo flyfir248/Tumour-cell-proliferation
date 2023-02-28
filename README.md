@@ -8,33 +8,33 @@ This is a Python implementation of a mathematical model that describes the dynam
 ### Model Parameters
 The model includes the following parameters:
 
-n: Hill coefficient for the immune response
+**n**: Hill coefficient for the immune response
 
-k1: production rate of IL-2 by T-helper cells
+**k1**: production rate of IL-2 by T-helper cells
 
-K: carrying capacity of environment
+**K**: carrying capacity of environment
 
-alpha: immune-mediated killing rate of tumor cells
+**alpha**: immune-mediated killing rate of tumor cells
 
-beta: recruitment rate of immune cells to tumor site
+**beta**: recruitment rate of immune cells to tumor site
 
-delta: death rate of immune cells
+**delta**: death rate of immune cells
 
-eta: rate of transition from Trr cells to Th cells
+**eta**: rate of transition from Trr cells to Th cells
 
-xi: rate of proliferation of Th cells
+**xi**: rate of proliferation of Th cells
 
-nu: death rate of Tc cells
+**nu**: death rate of Tc cells
 
-mu: death rate of Th cells
+**mu**: death rate of Th cells
 
-k3: Hill coefficient for the Trr cells' effect on Th cells
+**k3**: Hill coefficient for the Trr cells' effect on Th cells
 
-zeta: rate of killing of Tc cells by Trr cells
+**zeta**: rate of killing of Tc cells by Trr cells
 
-epsilon: rate of apoptosis of Tn cells
+**epsilon**: rate of apoptosis of Tn cells
 
-r: intrinsic growth rate of tumor
+**r**: intrinsic growth rate of tumor
 
 
 ### Running the Model
